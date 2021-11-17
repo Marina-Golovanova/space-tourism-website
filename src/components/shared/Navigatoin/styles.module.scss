@@ -1,0 +1,43 @@
+.navigation {
+  display: flex;
+  padding: 0 163px 0 123px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  width: 57%;
+  height: 96px;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #fff;
+
+  ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+
+    b {
+      margin-right: 11px;
+    }
+  }
+}
+
+.active {
+  border-bottom: 3px solid #fff;
+  margin-top: 3px;
+}
+
+a:hover {
+  margin-top: 3px;
+  border-bottom: 3px solid #fff;
+}
