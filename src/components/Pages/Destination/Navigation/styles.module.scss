@@ -1,0 +1,27 @@
+.nav {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 19.7vw;
+    min-width: 286px;
+    height: 34px;
+  }
+
+  li {
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    height: 100%;
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 3px solid #fff;
+    }
+  }
+}
+
+.activeItem {
+  border-bottom: 3px solid #fff;
+}
